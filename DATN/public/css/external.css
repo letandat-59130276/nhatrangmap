@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  background: #f8f9fa !important;
+}
+.input-group > .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+.navbar {
+  z-index: 100 !important;
+}
+.nav-item:hover {
+  border-bottom: 1px solid rgb(97, 166, 255) !important;
+}
+.sign-in:hover {
+  border-bottom: 2px solid rgb(97, 166, 255) !important;
+}
+.search {
+  display: inline-block !important;
+  margin-right: 20px;
+  cursor: pointer;
+  padding-right: 2rem;
+  border-right: 1px solid rgb(184, 184, 184);
+}
+section {
+  height: 800px;
+  position: relative;
+}
+.overview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.greetings {
+  max-width: 400px;
+  position: absolute;
+  color: #fff;
+  top: 100px;
+  left: 10%;
+}
+.greetings img {
+  max-width: 180px;
+}
+.greetings h1 {
+  text-transform: uppercase;
+}
+.greetings .abc .button {
+  background-color: rgb(80, 91, 248);
+  color: #fff;
+}
+.greetings .abc .button:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .footer .container {
+    flex-direction: column !important;
+  }
+  .input-group,
+  .w50 {
+    display: flex !important;
+    width: 200px !important;
+  }
+  .input-group > input {
+    width: 200px !important;
+  }
+}
+
+.login-img img {
+  position: fixed;
+  left: 60%;
+  top: 30%;
+  width: 700px;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
